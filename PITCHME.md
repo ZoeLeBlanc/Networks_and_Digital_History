@@ -7,8 +7,9 @@ Note: Welcome to this workshop! I know you had a lot of great options so I'm hon
 # Say Hi 👋🏽
 - Let's do introductions. Name, where you are from, what you work on...
 - I'm Zoe LeBlanc. @Zoe_LeBlanc / zgleblanc@gmail.com / zgl3n@virginia.edu
+
 Note: Hi I'm Zoe. Digital Humanities Developer by day at the Scholars' Lab at UVA. By night/any free moment I have, I'm also getting my doctorate in history at Vanderbilt University. Let's do some introductions 5-10 minutes
-+++
+---
 @title[What can you expect out of today?]
 #### What can you expect from today's workshop...
 - short answer: a lot of breadth |
@@ -23,11 +24,12 @@ Note: So we only have two hours today so we're going to try and do as much as we
 ### Where to start...
 ![Keanu wants to go](https://media.giphy.com/media/V2ojLo7PvhVug/giphy.gif)
 
-[Survey Time](https://drive.google.com/open?id=1NjAeaBTHwuXyuVjnTq1wRoOFBtb09KUEVb8rTMXhsT8) |
+- [Survey Time](https://drive.google.com/open?id=1NjAeaBTHwuXyuVjnTq1wRoOFBtb09KUEVb8rTMXhsT8) |
+
 Note: Dig into the data > had you fill out this survey and it's going to be our first data set > So let's take a look at some of the metrics google forms provides. What's note worthy? We can see the overall distribution, we have some charts > bar and pie charts > So how do we turn this data into an a network? 
 --- 
 @title[Basics of a network]
-# But first, what is a network?
+### But first, what is a network?
 - nodes -> entities |
 - edges/links -> relationships |
 - attributes -> descriptive information about entities and relationships (could also be statistical) |
@@ -42,7 +44,7 @@ Note:so this is a bit of word vomit let's put it into practice to see what it me
 - Let's spend a few minutes together making a graph
 Note: let's open up palladio > tool developed by stanford > load in data  > make a graph > is this a network? yes > is this meaningful though? probably not > what's missing? hypothesis SPEND 5-8 minutes
 ---
-# First Step in Digital History
+### First Step in Digital History
 - You need a hypothesis!!! |  
 - What sort of questions can we ask about this data? |
 Note: if we think of this as a social network > spend some time writting these into github issues, is this enough though... we can think about hypotheses but we also need to talk about methods and hypotheses
