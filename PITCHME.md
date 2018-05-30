@@ -46,36 +46,33 @@ Note:so this is a bit of word vomit let's put it into practice to see what it me
 Note: let's open up palladio > tool developed by stanford > load in data  > make a graph > is this a network? yes > is this meaningful though? probably not > what's missing? hypothesis SPEND 5-8 minutes
 ---
 ### First Step in Digital History
-- You need a hypothesis!!! |  
+- HYPOTHESIS!!! |  
 - What sort of questions can we ask about this data? |
 
 Note: if we think of this as a social network > spend some time writting these into github issues, is this enough though... we can think about hypotheses but we also need to talk about methods and hypotheses. but can we really make a hypothesis without understanding our methods?
-+++?image=https://media.giphy.com/media/m6XiAQYG3EhFu/giphy.gif
+---?image=https://media.giphy.com/media/m6XiAQYG3EhFu/giphy.gif
 
 Note: hypotheses are great but also need to understand our methods > chicken and egg of digital history > where do you start > has to be both
 ---
-[From Hermeneutics to Data to Networks: Data Extraction and Network Visualization of Historical Sources](https://programminghistorian.org/en/lessons/creating-network-diagrams-from-historical-sources)
+### First Questions When Starting Network Analysis
+[Marten Düring, "From Hermeneutics to Data to Networks: Data Extraction and Network Visualization of Historical Sources," The Programming Historian 4 (2015)](https://programminghistorian.org/en/lessons/creating-network-diagrams-from-historical-sources)
 - What defines a relationship between two actors?
 - Who is part of the network? Who is not?
 - Which types of relationships do you observe?
 - Which attributes are relevant?
 - What do you aim to find?
-Note: Let's take a look at this programming historian tutorial > some great questions for thinking through our hypothesis>  who is most likely to collaborate? how do we define that?places, years of program
+
+Note: Let's take a look at this programming historian tutorial > some great questions for thinking through our hypothesis>  who is most likely to collaborate? how do we define that?places, years of program so we've taken our survey data and abstracted these relationships, operationalized our hypothesis what palladio is great for but pretty limited what makes networks interesting is largely the relationships between the entities > whole branches of statistics known as network science have developed algorithms for understanding these relationships
 ---
-<!-- need gif -->
-so we've taken our survey data and abstracted these relationships, operationalized our hypothesis
-what palladio is great for
-but pretty limited what makes networks interesting is largely the relationships between the entities > whole branches of statistics known as network science have developed algorithms for understanding these relationships
----
-# Network Modeling
-[Exploring and Analyzing Network Data with Python](https://programminghistorian.org/en/lessons/exploring-and-analyzing-network-data-with-python#metrics-available-in-networkx)
+### Next Step: Network Modeling
+[John Ladd, Jessica Otis, Christopher N. Warren, and Scott Weingart, "Exploring and Analyzing Network Data with Python," The Programming Historian 6 (2017)](https://programminghistorian.org/en/lessons/exploring-and-analyzing-network-data-with-python)
 - What is the overall structure of the network?
 - Who are the important people, or hubs, in the network?
 - What are the subgroups and communities in the network?
 Note: Great tutorial on programming historian. which if you don't know about it, it's a great resource for DHers. This tutorial has some great questions for social network analysis so let's try and answer them
 ---
 # Network Navigator tool
-[Network Navigator](http://dh-web.hss.cmu.edu/network_navigator/)
+[Network Navigator by John Ladd & CMU](http://dh-web.hss.cmu.edu/network_navigator/)
 ### Node/Network metrics
 - degree -> sum edges connected to a node (node with large degree = hub)
 - eigenvector centrality -> sum node' edges and edges of node's neighbors (more influential to other nodes, eg. PageRank)
