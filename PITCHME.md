@@ -12,7 +12,7 @@ Note: Hi I'm Zoe. Digital Humanities Developer by day at the Scholars' Lab at UV
 +++
 @title[What can you expect out of today?]
 #### What can you expect from today's workshop...
-1. What are networks? |
+1. What are networks?
 2. How do you create a network? |
 3. What types of historical questions are amenable to networks? |
 4. How can networks further your research? |
