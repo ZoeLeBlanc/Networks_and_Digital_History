@@ -12,10 +12,11 @@ Note: Hi I'm Zoe. Digital Humanities Developer by day at the Scholars' Lab at UV
 +++
 @title[What can you expect out of today?]
 #### What can you expect from today's workshop...
-1. What are networks?
-2. How do you create a network? |
-3. What types of historical questions are amenable to networks? |
-4. How can networks further your research? |
+
+- What are networks?
+- How do you create a network? |
+- What types of historical questions are amenable to networks? |
+- How can networks further your research? |
 
 Note: So we only have two hours today so we're going to try and do as much as we can, while also realizing that there's some serious limits. Today I hope we can achieve the following goals. Some introduction to networks. What they are and aren't. How do you turn historical research into data and then networks, and what are some of the pitfalls when you're going from data collection and cleaning to data modeling and visualization. Some discussion of what types of historical problems are amenable to networks and how we can critique networks. Finally if we have time, I want to spend some time thinking through how networks might fit in your research agenda. Obviously this is a lot so we'll see how far we can get, but I'm going to have a long list of resources and tutorials online, and I'm also offering up my email so that if you ever want to discuss your research. I came from a school with very little DH infrastructure and it was people agreeing to skype me that go my interest off the ground so I'm paying it forward.
 ---
