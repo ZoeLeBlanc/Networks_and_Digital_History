@@ -1,6 +1,5 @@
 @title[Networks and Digital History]
 # Networks and Digital History
-### AKA There Is No Spoon
 ![There is no spoon](https://media.giphy.com/media/3o6Zt0hNCfak3QCqsw/giphy.gif)
 Note: Welcome to this workshop! I know you had a lot of great options so I'm honored that you chose this one. 
 ---
@@ -12,11 +11,11 @@ Note: Hi I'm Zoe. Digital Humanities Developer by day at the Scholars' Lab at UV
 +++
 @title[What can you expect out of today?]
 #### What can you expect from today's workshop...
-
-- What are networks?
-- How do you create a network? |
-- What types of historical questions are amenable to networks? |
-- How can networks further your research? |
+- short answer: a lot of breadth 
+- some depth on what are networks |
+- lots of discussion around why networks make sense for digital history |
+- and of course when they don't |
+- lastly (hoping), we can talk about your research and workshop together |
 
 Note: So we only have two hours today so we're going to try and do as much as we can, while also realizing that there's some serious limits. Today I hope we can achieve the following goals. Some introduction to networks. What they are and aren't. How do you turn historical research into data and then networks, and what are some of the pitfalls when you're going from data collection and cleaning to data modeling and visualization. Some discussion of what types of historical problems are amenable to networks and how we can critique networks. Finally if we have time, I want to spend some time thinking through how networks might fit in your research agenda. Obviously this is a lot so we'll see how far we can get, but I'm going to have a long list of resources and tutorials online, and I'm also offering up my email so that if you ever want to discuss your research. I came from a school with very little DH infrastructure and it was people agreeing to skype me that go my interest off the ground so I'm paying it forward.
 ---
