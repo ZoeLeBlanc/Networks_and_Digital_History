@@ -1,2 +1,3 @@
 *.jsonl
 *.log
+.DS_Store

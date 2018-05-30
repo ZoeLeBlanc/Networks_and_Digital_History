@@ -8,6 +8,13 @@ name = "pypi"
 [packages]
 
 twarc = "*"
+jupyter = "*"
+networkx = "*"
+bokeh = "*"
+pandas = "*"
+python-louvain = "*"
+plotly = "*"
+geopy = "*"
 
 
 [dev-packages]
