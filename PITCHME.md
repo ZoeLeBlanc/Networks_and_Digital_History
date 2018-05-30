@@ -11,21 +11,22 @@ Note: Hi I'm Zoe. Digital Humanities Developer by day at the Scholars' Lab at UV
 +++
 @title[What can you expect out of today?]
 #### What can you expect from today's workshop...
-- short answer: a lot of breadth 
-- some depth on what are networks |
-- lots of discussion around why networks make sense for digital history |
-- and of course when they don't |
-- lastly (hoping), we can talk about your research and workshop together |
+- short answer: a lot of breadth |
+- But still some depth on what are networks |
+- But even more discussion around why/when networks are useful for DH |
+- and of course when they aren't |
+- lastly (hoping), we can talk about your research and what you hope to do with networks & DH |
 
 Note: So we only have two hours today so we're going to try and do as much as we can, while also realizing that there's some serious limits. Today I hope we can achieve the following goals. Some introduction to networks. What they are and aren't. How do you turn historical research into data and then networks, and what are some of the pitfalls when you're going from data collection and cleaning to data modeling and visualization. Some discussion of what types of historical problems are amenable to networks and how we can critique networks. Finally if we have time, I want to spend some time thinking through how networks might fit in your research agenda. Obviously this is a lot so we'll see how far we can get, but I'm going to have a long list of resources and tutorials online, and I'm also offering up my email so that if you ever want to discuss your research. I came from a school with very little DH infrastructure and it was people agreeing to skype me that go my interest off the ground so I'm paying it forward.
 ---
 @title[So where to start]
-# Where to start...
-<!-- giphy of thinking face maybe turn this into an image slide -->
+### Where to start...
+![Keanu wants to go](https://media.giphy.com/media/V2ojLo7PvhVug/giphy.gif)
+[Survey Time](https://drive.google.com/open?id=1NjAeaBTHwuXyuVjnTq1wRoOFBtb09KUEVb8rTMXhsT8)
 Note: Dig into the data > had you fill out this survey and it's going to be our first data set > So let's take a look at some of the metrics google forms provides. What's note worthy? We can see the overall distribution, we have some charts > bar and pie charts
 --- 
 @title[How to make a network]
-# So how do we turn this data into an a network? 
+### So how do we turn this data into an a network? 
 <!-- another gif -->
 ---
 @title[Basics of a network]
