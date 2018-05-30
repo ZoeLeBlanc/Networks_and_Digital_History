@@ -98,21 +98,20 @@ why didn't our initial network though? thoughts? it's because it's a bipartite n
 launch binder
 ---
 # Algorithms & Networks
-- return to our questions: who is most central? who might collaborate?
-- what makes networks so powerful is a) how they represent relationships b) algorithms designed to leverage those representations
+- return to our initial questions, how might an algorithm help us answer them
+![Hugo Weaving Boss](https://media.giphy.com/media/saD01LsKDzxL2/giphy.gif)
 ---
 <!-- gif of scared face at mention of algorithms -->
+Note: what makes networks so powerful is a) how they represent relationships b) algorithms designed to leverage those representations
 ---
-Ben Schmidt (one of your instructors)
-"Put simply: digital humanists do not need to understand algorithms *at all*. They do need, however, to understand the transformations that algorithms attempt to bring about. If we do so, our practice will be more effective and more likely to be truly original."
-http://dhdebates.gc.cuny.edu/debates/text/99
-- community detection -> optimization of Modularity as the algorithm progresses. Modularity is a scale value between -1 and 1 that measures the density of edges inside communities to edges outside communities.
-- visualize the output of this algorithm with our dataset and the game of thrones dataset
-@[3]
-@[4]
+> "Put simply: digital humanists do not need to understand algorithms *at all*. They do need, however, to understand the transformations that algorithms attempt to bring about. If we do so, our practice will be more effective and more likely to be truly original." 
+> [Do Digital Humanists Need to Understand Algorithms?
+Ben Schmidt (one of your instructors), Debates in Digital Humanities (2016)](http://dhdebates.gc.cuny.edu/debates/text/99)
+- louvain community detection -> optimization of modularity, which is the density of edges inside communities to edges outside communities. |
+- visualize the output of this algorithm with our dataset and the game of thrones dataset |
 Note: Thing to understand about most algorithms and stats is that it is generally looking for measurements of centrality or varience, and that simply is often better
 ---
-# first code review:
+### first code review:
 - what sorts of research questions work well with networks? 
 - how can networks further historical arguments?
 - what sorts of critiques can we make of networks?
