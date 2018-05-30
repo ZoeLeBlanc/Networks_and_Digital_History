@@ -9,9 +9,9 @@ Note: Welcome to this workshop! I know you had a lot of great options so I'm hon
 - Let's do introductions. Name, where you are from, what you work on...
 - I'm Zoe LeBlanc. @Zoe_LeBlanc / zgleblanc@gmail.com / zgl3n@virginia.edu
 Note: Hi I'm Zoe. Digital Humanities Developer by day at the Scholars' Lab at UVA. By night/any free moment I have, I'm also getting my doctorate in history at Vanderbilt University. Let's do some introductions 5-10 minutes
----
++++
 @title[What can you expect out of today?]
-# What can you expect from today's workshop...
+#### What can you expect from today's workshop...
 1. What are networks? |
 2. How do you create a network? |
 3. What types of historical questions are amenable to networks? |
