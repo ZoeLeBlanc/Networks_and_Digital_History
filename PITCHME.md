@@ -42,14 +42,16 @@ Note:so this is a bit of word vomit let's put it into practice to see what it me
 @title[Palladio]
 [Palladio App from Stanford](http://hdlab.stanford.edu/palladio-app/#/upload)
 - Let's spend a few minutes together making a graph
+
 Note: let's open up palladio > tool developed by stanford > load in data  > make a graph > is this a network? yes > is this meaningful though? probably not > what's missing? hypothesis SPEND 5-8 minutes
 ---
 ### First Step in Digital History
 - You need a hypothesis!!! |  
 - What sort of questions can we ask about this data? |
-Note: if we think of this as a social network > spend some time writting these into github issues, is this enough though... we can think about hypotheses but we also need to talk about methods and hypotheses
----
-<!-- gif of chicken and egg -->
+
+Note: if we think of this as a social network > spend some time writting these into github issues, is this enough though... we can think about hypotheses but we also need to talk about methods and hypotheses. but can we really make a hypothesis without understanding our methods?
++++?image=https://media.giphy.com/media/m6XiAQYG3EhFu/giphy.gif
+
 Note: hypotheses are great but also need to understand our methods > chicken and egg of digital history > where do you start > has to be both
 ---
 [From Hermeneutics to Data to Networks: Data Extraction and Network Visualization of Historical Sources](https://programminghistorian.org/en/lessons/creating-network-diagrams-from-historical-sources)
