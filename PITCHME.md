@@ -1,7 +1,7 @@
 @title[Networks and Digital History]
 # Networks and Digital History
 ### AKA There Is No Spoon
-<!-- get matrix gif -->
+![There is no spoon](https://media.giphy.com/media/3o6Zt0hNCfak3QCqsw/giphy.gif)
 Note: Welcome to this workshop! I know you had a lot of great options so I'm honored that you chose this one. 
 ---
 @title[Say Hi 👋🏽]
