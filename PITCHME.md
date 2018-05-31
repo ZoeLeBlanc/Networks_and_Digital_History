@@ -29,7 +29,7 @@ Note: So we only have two hours today so we're going to try and do as much as we
 Note: Dig into the data > had you fill out this survey and it's going to be our first data set > So let's take a look at some of the metrics google forms provides. What's note worthy? We can see the overall distribution, we have some charts > bar and pie charts > So how do we turn this data into an a network? 
 --- 
 @title[Basics of a network]
-### But first, what is a network?
+### What is a network?
 - nodes -> entities |
 - edges/links -> relationships |
 - attributes -> descriptive information about entities and relationships (could also be statistical) |
@@ -51,7 +51,7 @@ Note: let's open up palladio > tool developed by stanford > load in data  > make
 - HYPOTHESIS!!! |  
 - What sort of questions can we ask about this data? |
 
-Note: if we think of this as a social network > spend some time writting these into github issues, is this enough though... we can think about hypotheses but we also need to talk about methods and hypotheses. but can we really make a hypothesis without understanding our methods? hypotheses are great but also need to understand our methods > chicken and egg of digital history > where do you start > has to be both
+Note: if we think of this as a social network what types of things can we ask? we can think about hypotheses but we also need to talk about methods and hypotheses. but can we really make a hypothesis without understanding our methods? hypotheses are great but also need to understand our methods > chicken and egg of digital history > where do you start > has to be both
 ---
 @title[Networks First Steps]
 ### First Questions When Starting Network Analysis
@@ -123,22 +123,25 @@ Note: Thing to understand about most algorithms and stats is that it is generall
 is the Matrix 
 ![whoa](https://media.giphy.com/media/uPnKU86sFa2fm/giphy.gif)
 ---
+### Final Exercise:  Code Review
+- what sorts of research questions work well with networks? how can networks further historical arguments?
+- what sorts of critiques can we make of networks? what might we do next with these data sets to actually make historical arguments?
+- what would you want to learn more about for networks or digital history? how might you go about doing that?
+[https://github.com/ZoeLeBlanc/Networks_and_Digital_History/projects/2](https://github.com/ZoeLeBlanc/Networks_and_Digital_History/projects/2)
+Note: spend 15 minutes with each other and then some time talking together
+---
 ### Scott Weingart's Lessons for Digital Historians
 Culled from two blog posts: [Lessons From Digital History's Antecedents](http://scottbot.net/lessons-from-digital-historys-antecedents/) and [Argument Clinic](http://scottbot.net/argument-clinic/)
 - Uncareful Appropriation –> Collaboration 
 - Reliance on Imports –> Statistical Training
 - False Precision & Certainty – Simulation & Triangulation 
 - Quantitative Blinders –> Rejecting Digital History 
-- From Data -> Historical Context  
+- Focus on Data -> Focus on Historical Context  
 
 Note: "sidestep the issue of accidentally misusing a method by collaborating with someone who knows how the method works." "Avoiding quantitative blinders – that is, the tendency to only care about what’s easily countable"
 ---
 > "Without having a ground against which to contextualize our results, a base map like general population, the fact of which cities voted in which direction gives us little historical meat to chew on. **The above boils down into two possible points of further research: deviations from expectation, or deviations from internal consistency.**"
----
-### Final Exercise:  Code Review
-- what sorts of research questions work well with networks? how can networks further historical arguments?
-- what sorts of critiques can we make of networks? what might we do next with these data sets to actually make historical arguments?
-- what would you want to learn more about for networks or digital history? how might you go about doing that?
+
 
 Note: 
 no one is an impostor. 
