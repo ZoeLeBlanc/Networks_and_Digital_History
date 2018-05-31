@@ -50,6 +50,7 @@ Note: let's open up palladio > tool developed by stanford > load in data  > make
 - What sort of questions can we ask about this data? |
 
 Note: if we think of this as a social network > spend some time writting these into github issues, is this enough though... we can think about hypotheses but we also need to talk about methods and hypotheses. but can we really make a hypothesis without understanding our methods?
+---
 
 +++?image=https://media.giphy.com/media/m6XiAQYG3EhFu/giphy.gif
 
