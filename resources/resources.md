@@ -28,3 +28,11 @@ Viral Texts: Mapping Networks of Reprinting in 19th-Century Newspapers and Magaz
 
 # Workshops
 [AHA Network Analysis Workshop by Jason Heppler](https://jasonheppler.org/courses/aha-workshop-2018/)
+
+[Marten Düring, “From Hermeneutics to Data to Networks: Data Extraction and Network Visualization of Historical Sources”](https://programminghistorian.org/en/lessons/creating-network-diagrams-from-historical-sources)
+
+Martin Grandjean, “Introduction to Network Analysis and Visualization”
+
+Miriam Posner, Cytoscape tutorials
+
+Brian Sarnacki, The Complete n00b’s Guide to Gephi
