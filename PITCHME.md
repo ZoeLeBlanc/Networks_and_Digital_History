@@ -12,8 +12,8 @@ Note: Hi I'm Zoe. Digital Humanities Developer by day at the Scholars' Lab at UV
 ---
 @title[What can you expect out of today?]
 #### What can you expect from today's workshop...
-- short answer: a lot of breadth |
-- But still some depth on what are networks |
+- Short answer: a lot of breadth |
+- Some depth on networks |
 - But even more discussion around why/when networks are useful for DH |
 - and of course when they aren't |
 - lastly (hoping), we can talk about your research and what you hope to do with networks & DH |
