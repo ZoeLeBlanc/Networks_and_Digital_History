@@ -83,16 +83,17 @@ Note: A great tool to answer that question is CMU's network navigator, which let
 - clustering coefficient -> average across network of how likely nodes will cluster |
 - transivity -> all triangles/ all possible triangles |
 
-Note:what's the shape > strucuture or topology tells you about how centralized/decentralized, sparse or dense your network is > helps identify components or connected nodes, let's look at some of the metrics available in network navigator > shape of the network (topology) > all of these metrics are helping us understand how the network is representing this dataset > difference between dataset and network (abstract vs concrete relationships) > proabilities over certainties > idea of homophilly
+Note:what's the shape > strucuture or topology tells you about how centralized/decentralized, sparse or dense your network is > helps identify components or connected nodes, let's look at some of the metrics available in network navigator > shape of the network (topology) > all of these metrics are helping us understand how the network is representing this dataset > difference between dataset and network (abstract vs concrete relationships) > proabilities over certainties > idea of homophilly > Network homophily refers to the theory in network science which states that, based on node attributes, similar nodes may be more likely to attach to each other than dissimilar ones.
 ---
 ### NetworkX
-[NetworkX Library](https://networkx.github.io/documentation/stable/)
+[NetworkX Library](https://networkx.github.io/documentation/stable/reference/algorithms/bipartite.html)
 - bipartite -> a network where nodes only have relationships with another group of nodes |
+- [Networks Demystified 9: Bimodal Networks by Scott Weingar](http://scottbot.net/networks-demystified-9-modality/) |
 <!-- binder link -->
 
 Note: why didn't our initial network though? thoughts? it's because it's a bipartite network. very common in DH, but has a lot of issues. Scott has a great piece about working with bipartite networks and their issues. We can check if a network is bipartite by looking through our table of data or more easily using networkx. NetworkX is a python library that is designed for building networks and analyzing them. Up to now we've looked at out of the box tools for studying networks. A few others that are really common are Gephi and Cytoscape. I'm going to give you a link to a notebook running python code in the cloud from our github repo so that you can follow along. We'll go along the script a bit > launch binder
 ---
-### Algorithms & Networks
+### Networks Plus
 - Return to our initial questions |
 - How might an algorithm help us answer them? |
 - Better yet what is an algorithm even? |
@@ -106,7 +107,7 @@ Note: what makes networks so powerful is a) how they represent relationships b) 
 Ben Schmidt (one of your instructors), Debates in Digital Humanities (2016)](http://dhdebates.gc.cuny.edu/debates/text/99)
 - louvain community detection -> optimization of modularity, which is the density of edges inside communities to edges outside communities. |
 - visualize the output of this algorithm with our dataset and the game of thrones dataset |
-Note: Thing to understand about most algorithms and stats is that it is generally looking for measurements of centrality or varience, and that simply is often better
+Note: Thing to understand about most algorithms and stats is that it is generally looking for measurements of centrality or varience, and that simply is often better > Community detection assigns a community to each node in a network to analyze how closely connected nodes are internally to a network
 ---
 ### first code review:
 - what sorts of research questions work well with networks? 
@@ -127,6 +128,7 @@ Note: Data curation & data visualization
 Note: Who is working on social networks? Whose data is nicely formatted in tables?
 alternative network data: text
 great option for automatted data collection. also let's us think of other 
+http://historicalnetworkresearch.org/bibliography/#Network%20Extraction%20from%20Texts
 ---
 show off NER and counting
 ---
