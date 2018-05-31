@@ -48,13 +48,9 @@ Note: let's open up palladio > tool developed by stanford > load in data  > make
 ### First Step in Digital History
 - HYPOTHESIS!!! |  
 - What sort of questions can we ask about this data? |
+- ![Keanu whoa](https://media.giphy.com/media/m6XiAQYG3EhFu/giphy.gif)
 
-Note: if we think of this as a social network > spend some time writting these into github issues, is this enough though... we can think about hypotheses but we also need to talk about methods and hypotheses. but can we really make a hypothesis without understanding our methods?
----
-
-+++?image=https://media.giphy.com/media/m6XiAQYG3EhFu/giphy.gif
-
-Note: hypotheses are great but also need to understand our methods > chicken and egg of digital history > where do you start > has to be both
+Note: if we think of this as a social network > spend some time writting these into github issues, is this enough though... we can think about hypotheses but we also need to talk about methods and hypotheses. but can we really make a hypothesis without understanding our methods? hypotheses are great but also need to understand our methods > chicken and egg of digital history > where do you start > has to be both
 ---
 ### First Questions When Starting Network Analysis
 [Marten Düring, "From Hermeneutics to Data to Networks: Data Extraction and Network Visualization of Historical Sources," The Programming Historian 4 (2015)](https://programminghistorian.org/en/lessons/creating-network-diagrams-from-historical-sources)
