@@ -48,9 +48,8 @@ Note: let's open up palladio > tool developed by stanford > load in data  > make
 ### First Step in Digital History
 - HYPOTHESIS!!! |  
 - What sort of questions can we ask about this data? |
-Note: if we think of this as a social network > spend some time writting these into github issues, is this enough though... we can think about hypotheses but we also need to talk about methods and hypotheses. but can we really make a hypothesis without understanding our methods? hypotheses are great but also need to understand our methods > chicken and egg of digital history > where do you start > has to be both
 
-+++?image=https://giphy.com/gifs/m6XiAQYG3EhFu/html5
+Note: if we think of this as a social network > spend some time writting these into github issues, is this enough though... we can think about hypotheses but we also need to talk about methods and hypotheses. but can we really make a hypothesis without understanding our methods? hypotheses are great but also need to understand our methods > chicken and egg of digital history > where do you start > has to be both
 ---
 ### First Questions When Starting Network Analysis
 [Marten Düring, "From Hermeneutics to Data to Networks: Data Extraction and Network Visualization of Historical Sources," The Programming Historian 4 (2015)](https://programminghistorian.org/en/lessons/creating-network-diagrams-from-historical-sources)
@@ -76,8 +75,8 @@ Note: Great tutorial on programming historian. which if you don't know about it,
 - eigenvector centrality -> sum node' edges and edges of node's neighbors (more influential to other nodes, eg. PageRank) |
 - betweeness centrality -> all shortest paths through a node (nodes/brokers that connect groups) |
 - [Game of Thrones Dataset from Melanie Walsh's Sample Datasets](https://github.com/melaniewalsh/sample-social-network-datasets/tree/master/sample-datasets/game-of-thrones) |
-Note: A great tool to answer that question is CMU's network navigator, which let's us take a csv version of our data that we have to message a bit first to make it work. First we have to select the entites and relationships we are most interested in.  What do you see? We can see degree, which is pretty straightfoward as sum of edges connected to each node, larger nodes are hubs. But notice that the rest of the metrics aren't generating. Why might that be? How could we figure what's going on?
-Read documentation or test different data set. Melanie Walsh has a great set of network analysis data sets. We're gonna use the game of thrones one. Now we can see other metrics. 
+
+Note: A great tool to answer that question is CMU's network navigator, which let's us take a csv version of our data that we have to message a bit first to make it work. First we have to select the entites and relationships we are most interested in.  What do you see? We can see degree, which is pretty straightfoward as sum of edges connected to each node, larger nodes are hubs. But notice that the rest of the metrics aren't generating. Why might that be? How could we figure what's going on? Read documentation or test different data set. Melanie Walsh has a great set of network analysis data sets. We're gonna use the game of thrones one. Now we can see other metrics. 
 ---
 #### Network metrics continued
 - density -> actual edges / possible edges | 
@@ -91,12 +90,12 @@ Note:what's the shape > strucuture or topology tells you about how centralized/d
 - bipartite -> a network where nodes only have relationships with another group of nodes |
 <!-- binder link -->
 
-Note:
-why didn't our initial network though? thoughts? it's because it's a bipartite network. very common in DH, but has a lot of issues. Scott has a great piece about working with bipartite networks and their issues. We can check if a network is bipartite by looking through our table of data or more easily using networkx. NetworkX is a python library that is designed for building networks and analyzing them. Up to now we've looked at out of the box tools for studying networks. A few others that are really common are Gephi and Cytoscape. I'm going to give you a link to a notebook running python code in the cloud from our github repo so that you can follow along. We'll go along the script a bit
-launch binder
+Note: why didn't our initial network though? thoughts? it's because it's a bipartite network. very common in DH, but has a lot of issues. Scott has a great piece about working with bipartite networks and their issues. We can check if a network is bipartite by looking through our table of data or more easily using networkx. NetworkX is a python library that is designed for building networks and analyzing them. Up to now we've looked at out of the box tools for studying networks. A few others that are really common are Gephi and Cytoscape. I'm going to give you a link to a notebook running python code in the cloud from our github repo so that you can follow along. We'll go along the script a bit > launch binder
 ---
-# Algorithms & Networks
-- return to our initial questions, how might an algorithm help us answer them
+### Algorithms & Networks
+- Return to our initial questions |
+- How might an algorithm help us answer them? |
+- Better yet what is an algorithm even? |
 ![Hugo Weaving Boss](https://media.giphy.com/media/saD01LsKDzxL2/giphy.gif)
 ---
 <!-- gif of scared face at mention of algorithms -->
