@@ -23,16 +23,19 @@ Also by Matt Lincoln [DH2016: Measuring Genre Diversity in Seventeenth-Century D
 
 [Micki Kaufman, “Everything on Paper Will Be Used Against Me”: Quantifying Kissinger](http://blog.quantifyingkissinger.com/)
 
-Mapping the Republic of Letters
-Viral Texts: Mapping Networks of Reprinting in 19th-Century Newspapers and Magazines
+[Claire Lemercier, “Formal network methods in history: why and how?”](https://halshs.archives-ouvertes.fr/file/index/docid/649316/filename/lemercier_A_zg.pdf)
+
+[Mapping the Republic of Letters](http://republicofletters.stanford.edu/)
+
+[Viral Texts: Mapping Networks of Reprinting in 19th-Century Newspapers and Magazines](http://viraltexts.org/)
 
 # Workshops
 [AHA Network Analysis Workshop by Jason Heppler](https://jasonheppler.org/courses/aha-workshop-2018/)
 
 [Marten Düring, “From Hermeneutics to Data to Networks: Data Extraction and Network Visualization of Historical Sources”](https://programminghistorian.org/en/lessons/creating-network-diagrams-from-historical-sources)
 
-Martin Grandjean, “Introduction to Network Analysis and Visualization”
+[Martin Grandjean, “Introduction to Network Analysis and Visualization”](http://www.martingrandjean.ch/gephi-introduction/)
 
-Miriam Posner, Cytoscape tutorials
+[Miriam Posner, Cytoscape tutorials](https://github.com/miriamposner/cytoscape_tutorials)
 
-Brian Sarnacki, The Complete n00b’s Guide to Gephi
+[Brian Sarnacki, The Complete n00b’s Guide to Gephi](http://www.briansarnacki.com/gephi-tutorial/)
