@@ -102,6 +102,7 @@ Note: why didn't our initial network though? thoughts? it's because it's a bipar
 # BREAK
 Note: 10 minutes for breaks
 ---
+@title[Algorithms]
 ### Networks Next Steps
 - Final piece for networks -> ALGORITHMS |
 - ![Good stuff](https://media.giphy.com/media/WuVdPqDSsRbjy/giphy.gif) | 
@@ -109,13 +110,18 @@ Note: 10 minutes for breaks
 
 Note: what makes networks so powerful is a) how they represent relationships b) algorithms designed to leverage those representations >  visualize the output of this algorithm with our dataset and the game of thrones dataset > what do we see? going to use d3 > open community detection notebook
 ---
+@title[Sorta]
 > "Put simply: digital humanists do not need to understand algorithms *at all*. They do need, however, to understand the transformations that algorithms attempt to bring about. If we do so, our practice will be more effective and more likely to be truly original." 
 > [Do Digital Humanists Need to Understand Algorithms? Ben Schmidt (one of your instructors), Debates in Digital Humanities (2016)](http://dhdebates.gc.cuny.edu/debates/text/99)
 
 Note: Thing to understand about most algorithms and stats is that it is generally looking for measurements of centrality or varience, and that simply is often better > Community detection assigns a community to each node in a network to analyze how closely connected nodes are internally to a network
-
+---
 +++?image=https://media.giphy.com/media/3o7btNhMBytxAM6YBa/giphy.gif
 ___
+![matrix](https://cdn.kastatic.org/googleusercontent/9XeqQ2stwpGbXuli1TWSbnHQwITfrYV_AtmjMFEtQZbAo9VvWQ0KYNBnyRx5x9Ekpwh_Pdwzu4dC6b3Y0Wb0Qsu5)
+is the Matrix 
+![whoa](https://media.giphy.com/media/uPnKU86sFa2fm/giphy.gif)
+---
 ### Scott Weingart's Lessons for Digital Historians
 Culled from two blog posts: [Lessons From Digital History's Antecedents](http://scottbot.net/lessons-from-digital-historys-antecedents/) and [Argument Clinic](http://scottbot.net/argument-clinic/)
 - Uncareful Appropriation –> Collaboration 
