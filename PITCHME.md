@@ -69,6 +69,7 @@ Note: Let's take a look at this programming historian tutorial > some great ques
 - What is the overall structure of the network?
 - Who are the important people, or hubs, in the network?
 - What are the subgroups and communities in the network?
+
 Note: Great tutorial on programming historian. which if you don't know about it, it's a great resource for DHers. This tutorial has some great questions for social network analysis so let's try and answer them
 ---
 @title[Network Navigator]
@@ -96,38 +97,22 @@ Note:what's the shape > strucuture or topology tells you about how centralized/d
 - [Networks Demystified 9: Bimodal Networks by Scott Weingar](http://scottbot.net/networks-demystified-9-modality/) |
 <!-- binder link -->
 
-Note: why didn't our initial network though? thoughts? it's because it's a bipartite network. very common in DH, but has a lot of issues. Scott has a great piece about working with bipartite networks and their issues. We can check if a network is bipartite by looking through our table of data or more easily using networkx. NetworkX is a python library that is designed for building networks and analyzing them. Up to now we've looked at out of the box tools for studying networks. A few others that are really common are Gephi and Cytoscape. I'm going to give you a link to a notebook running python code in the cloud from our github repo so that you can follow along. We'll go along the script a bit > launch binder
+Note: why didn't our initial network though? thoughts? it's because it's a bipartite network. very common in DH, but has a lot of issues. Scott has a great piece about working with bipartite networks and their issues. We can check if a network is bipartite by looking through our table of data or more easily using networkx. NetworkX is a python library that is designed for building networks and analyzing them. Up to now we've looked at out of the box tools for studying networks. A few others that are really common are Gephi and Cytoscape. I'm going to give you a link to a notebook running python code in the cloud from our github repo so that you can follow along. We'll go along the script a bit > launch binder second notebook
 ---
-### Networks Plus
-- Return to our initial questions |
-- How might an algorithm help us answer them? |
-- Better yet what is an algorithm even? |
-![Hugo Weaving Boss](https://media.giphy.com/media/saD01LsKDzxL2/giphy.gif)
+# BREAK
+Note: 10 minutes for breaks
 ---
-<!-- gif of scared face at mention of algorithms -->
-Note: what makes networks so powerful is a) how they represent relationships b) algorithms designed to leverage those representations
+### Networks Next Steps
+- Final piece for networks -> ALGORITHMS |
+- ![Good stuff](https://media.giphy.com/media/WuVdPqDSsRbjy/giphy.gif) | 
+- louvain community detection -> assigns a community to each node based on density of edges inside communities |
+
+Note: what makes networks so powerful is a) how they represent relationships b) algorithms designed to leverage those representations >  visualize the output of this algorithm with our dataset and the game of thrones dataset > what do we see? going to use d3 > open community detection notebook
 ---
 > "Put simply: digital humanists do not need to understand algorithms *at all*. They do need, however, to understand the transformations that algorithms attempt to bring about. If we do so, our practice will be more effective and more likely to be truly original." 
-> [Do Digital Humanists Need to Understand Algorithms?
-Ben Schmidt (one of your instructors), Debates in Digital Humanities (2016)](http://dhdebates.gc.cuny.edu/debates/text/99)
-- louvain community detection -> optimization of modularity, which is the density of edges inside communities to edges outside communities. |
-- visualize the output of this algorithm with our dataset and the game of thrones dataset |
+> [Do Digital Humanists Need to Understand Algorithms? Ben Schmidt (one of your instructors), Debates in Digital Humanities (2016)](http://dhdebates.gc.cuny.edu/debates/text/99)
+
 Note: Thing to understand about most algorithms and stats is that it is generally looking for measurements of centrality or varience, and that simply is often better > Community detection assigns a community to each node in a network to analyze how closely connected nodes are internally to a network
----
-### first code review:
-- what sorts of research questions work well with networks? 
-- how can networks further historical arguments?
-- what sorts of critiques can we make of networks?
-- what might we do next with these data sets to actually make historical arguments?
- http://scottbot.net/argument-clinic/
-- "Without having a ground against which to contextualize our results, a base map like general population, the fact of which cities voted in which direction gives us little historical meat to chew on."
-#### CORE OF DIGITAL HISTORY: deviations from expectation, or deviations from internal consistency.
----
-BREAK
----
-# What's left?
-### Time to Enter the Matrix
-Note: Data curation & data visualization
 ---
 ### No like literally let's talk about adjancency matrices
 Note: Who is working on social networks? Whose data is nicely formatted in tables?
@@ -170,6 +155,8 @@ Even if no alternate hypothesis presents itself, and all of your tests agree wit
  Todo:
  network navigator
  bipartite network
+
+ Todo:
  community detection
 
 d3 network colorized
@@ -183,3 +170,15 @@ how do we critique networks as historians?
 how do we understand visualizations as part of our argumentation?
 or statistics and measurements for that matter?
 micki kaufman project
+https://media.giphy.com/media/hVKz6wRT0POuI/giphy.gif
+spoon gif
+---
+### first code review:
+- what sorts of research questions work well with networks? 
+- how can networks further historical arguments?
+- what sorts of critiques can we make of networks?
+- what might we do next with these data sets to actually make historical arguments?
+ 
+> "Without having a ground against which to contextualize our results, a base map like general population, the fact of which cities voted in which direction gives us little historical meat to chew on. **The above boils down into two possible points of further research: deviations from expectation, or deviations from internal consistency.**"
+> [Argument Clinic, Scott Weingart](http://scottbot.net/argument-clinic/)
+deviations from expectation, or deviations from internal consistency.
