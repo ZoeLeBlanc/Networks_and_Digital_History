@@ -117,7 +117,7 @@ Note: what makes networks so powerful is a) how they represent relationships b) 
 Note: Thing to understand about most algorithms and stats is that it is generally looking for measurements of centrality or varience, and that simply is often better > Community detection assigns a community to each node in a network to analyze how closely connected nodes are internally to a network
 ---
 +++?image=https://media.giphy.com/media/3o7btNhMBytxAM6YBa/giphy.gif
-___
+---
 ![matrix](https://cdn.kastatic.org/googleusercontent/9XeqQ2stwpGbXuli1TWSbnHQwITfrYV_AtmjMFEtQZbAo9VvWQ0KYNBnyRx5x9Ekpwh_Pdwzu4dC6b3Y0Wb0Qsu5)
 is the Matrix 
 ![whoa](https://media.giphy.com/media/uPnKU86sFa2fm/giphy.gif)
