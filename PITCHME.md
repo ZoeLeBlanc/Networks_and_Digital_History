@@ -45,12 +45,14 @@ Note:so this is a bit of word vomit let's put it into practice to see what it me
 
 Note: let's open up palladio > tool developed by stanford > load in data  > make a graph > is this a network? yes > is this meaningful though? probably not > what's missing? hypothesis SPEND 5-8 minutes
 ---
+@title[Digital History First Steps]
 ### First Step in Digital History
 - HYPOTHESIS!!! |  
 - What sort of questions can we ask about this data? |
 
 Note: if we think of this as a social network > spend some time writting these into github issues, is this enough though... we can think about hypotheses but we also need to talk about methods and hypotheses. but can we really make a hypothesis without understanding our methods? hypotheses are great but also need to understand our methods > chicken and egg of digital history > where do you start > has to be both
 ---
+@title[Networks First Steps]
 ### First Questions When Starting Network Analysis
 [Marten Düring, "From Hermeneutics to Data to Networks: Data Extraction and Network Visualization of Historical Sources," The Programming Historian 4 (2015)](https://programminghistorian.org/en/lessons/creating-network-diagrams-from-historical-sources)
 - What defines a relationship between two actors?
@@ -61,6 +63,7 @@ Note: if we think of this as a social network > spend some time writting these i
 
 Note: Let's take a look at this programming historian tutorial > some great questions for thinking through our hypothesis>  who is most likely to collaborate? how do we define that?places, years of program so we've taken our survey data and abstracted these relationships, operationalized our hypothesis what palladio is great for but pretty limited what makes networks interesting is largely the relationships between the entities > whole branches of statistics known as network science have developed algorithms for understanding these relationships
 ---
+@title[Network Modeling]
 ### Next Step: Network Modeling
 [John Ladd, Jessica Otis, Christopher N. Warren, and Scott Weingart, "Exploring and Analyzing Network Data with Python," The Programming Historian 6 (2017)](https://programminghistorian.org/en/lessons/exploring-and-analyzing-network-data-with-python)
 - What is the overall structure of the network?
@@ -68,9 +71,9 @@ Note: Let's take a look at this programming historian tutorial > some great ques
 - What are the subgroups and communities in the network?
 Note: Great tutorial on programming historian. which if you don't know about it, it's a great resource for DHers. This tutorial has some great questions for social network analysis so let's try and answer them
 ---
+@title[Network Navigator]
 ### Network Navigator tool
 [Network Navigator by John Ladd & CMU](http://dh-web.hss.cmu.edu/network_navigator/)
-#### Network metrics |
 - degree -> sum edges connected to a node (node with large degree = hub) |
 - eigenvector centrality -> sum node' edges and edges of node's neighbors (more influential to other nodes, eg. PageRank) |
 - betweeness centrality -> all shortest paths through a node (nodes/brokers that connect groups) |
@@ -78,13 +81,15 @@ Note: Great tutorial on programming historian. which if you don't know about it,
 
 Note: A great tool to answer that question is CMU's network navigator, which let's us take a csv version of our data that we have to message a bit first to make it work. First we have to select the entites and relationships we are most interested in.  What do you see? We can see degree, which is pretty straightfoward as sum of edges connected to each node, larger nodes are hubs. But notice that the rest of the metrics aren't generating. Why might that be? How could we figure what's going on? Read documentation or test different data set. Melanie Walsh has a great set of network analysis data sets. We're gonna use the game of thrones one. Now we can see other metrics. 
 ---
-#### Network metrics continued
+@title[Network Metrics]
+#### Network Metrics Continued
 - density -> actual edges / possible edges | 
 - clustering coefficient -> average across network of how likely nodes will cluster |
 - transivity -> all triangles/ all possible triangles |
 
 Note:what's the shape > strucuture or topology tells you about how centralized/decentralized, sparse or dense your network is > helps identify components or connected nodes, let's look at some of the metrics available in network navigator > shape of the network (topology) > all of these metrics are helping us understand how the network is representing this dataset > difference between dataset and network (abstract vs concrete relationships) > proabilities over certainties > idea of homophilly
 ---
+@title[NetworkX]
 ### NetworkX
 [NetworkX Library](https://networkx.github.io/documentation/stable/)
 - bipartite -> a network where nodes only have relationships with another group of nodes |
