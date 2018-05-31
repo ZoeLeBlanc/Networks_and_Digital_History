@@ -95,7 +95,7 @@ Note:what's the shape > strucuture or topology tells you about how centralized/d
 [NetworkX Library](https://networkx.github.io/documentation/stable/reference/algorithms/bipartite.html)
 - bipartite -> a network where nodes only have relationships with another group of nodes |
 - [Networks Demystified 9: Bimodal Networks by Scott Weingar](http://scottbot.net/networks-demystified-9-modality/) |
-<!-- binder link -->
+- [Bipartite Graph](https://bl.ocks.org/ZoeLeBlanc/25dffd0935ab26bf3235b8226c32a8bc) |
 
 Note: why didn't our initial network though? thoughts? it's because it's a bipartite network. very common in DH, but has a lot of issues. Scott has a great piece about working with bipartite networks and their issues. We can check if a network is bipartite by looking through our table of data or more easily using networkx. NetworkX is a python library that is designed for building networks and analyzing them. Up to now we've looked at out of the box tools for studying networks. A few others that are really common are Gephi and Cytoscape. I'm going to give you a link to a notebook running python code in the cloud from our github repo so that you can follow along. We'll go along the script a bit > launch binder second notebook
 ---
@@ -113,72 +113,34 @@ Note: what makes networks so powerful is a) how they represent relationships b) 
 > [Do Digital Humanists Need to Understand Algorithms? Ben Schmidt (one of your instructors), Debates in Digital Humanities (2016)](http://dhdebates.gc.cuny.edu/debates/text/99)
 
 Note: Thing to understand about most algorithms and stats is that it is generally looking for measurements of centrality or varience, and that simply is often better > Community detection assigns a community to each node in a network to analyze how closely connected nodes are internally to a network
----
-### No like literally let's talk about adjancency matrices
-Note: Who is working on social networks? Whose data is nicely formatted in tables?
-alternative network data: text
-great option for automatted data collection. also let's us think of other 
-http://historicalnetworkresearch.org/bibliography/#Network%20Extraction%20from%20Texts
----
-show off NER and counting
----
-matrices and vectors
-Note: Many undirected networks csn be represented by matrices. Benefits lot easier to understand what's happening, a very different way of thinking/making an argument about networks. Matrices are also a really foundational data structure for any digital history project > use it image analysis, text mining, etc... 
----
-network visualizations
-bokeh with python
-d3
-Note: thinking beyond force layout helps think how visualization is part of your arguments > start thinking about networks not simply as force layouts but actually
----
-Scott's lessons for digital historians
 
-1. Uncareful Appropriation – Collaboration "sidestep the issue of accidentally misusing a method by collaborating with someone who knows how the method works."
-2. Reliance on Imports – Statistical Training
++++?image=https://media.giphy.com/media/3o7btNhMBytxAM6YBa/giphy.gif
+___
+### Scott Weingart's Lessons for Digital Historians
+Culled from two blog posts: [Lessons From Digital History's Antecedents](http://scottbot.net/lessons-from-digital-historys-antecedents/) and [Argument Clinic](http://scottbot.net/argument-clinic/)
+- Uncareful Appropriation –> Collaboration 
+- Reliance on Imports –> Statistical Training
+- False Precision & Certainty – Simulation & Triangulation 
+- Quantitative Blinders –> Rejecting Digital History 
+- From Data -> Historical Context  
 
-3. Naive Scientism – Humanities History "If we want to combat the uncareful use of proxies in digital history, we need only to teach the history of the humanities; why the cultural turn happened, what’s gone wrong with positivistic approaches to history in the past, etc."
-4. False Precision & Certainty – Simulation & Triangulation "means trying to reach the same conclusion using multiple different methods in parallel, and seeing if they all agree. "
-5. Quantitative Blinders – Rejecting Digital History "Avoiding quantitative blinders – that is, the tendency to only care about what’s easily countable"
-http://scottbot.net/lessons-from-digital-historys-antecedents/
+Note: "sidestep the issue of accidentally misusing a method by collaborating with someone who knows how the method works." "Avoiding quantitative blinders – that is, the tendency to only care about what’s easily countable"
 ---
-Final code review:
-what would you want to learn more about?
-how might you go about doing that?
-what data do you need to collect?
---- 
+> "Without having a ground against which to contextualize our results, a base map like general population, the fact of which cities voted in which direction gives us little historical meat to chew on. **The above boils down into two possible points of further research: deviations from expectation, or deviations from internal consistency.**"
+---
+### Final Exercise:  Code Review
+- what sorts of research questions work well with networks? how can networks further historical arguments?
+- what sorts of critiques can we make of networks? what might we do next with these data sets to actually make historical arguments?
+- what would you want to learn more about for networks or digital history? how might you go about doing that?
+
+Note: 
 no one is an impostor. 
 we're all starting from somewhere
-
+consider missing data, 
+look at ways to 
 Even if no alternate hypothesis presents itself, and all of your tests agree with your hypothesis, you still do not have causal proof.
  Be sure to take time to consider what’s missing from the dataset, due to archival lacunae, bias, etc.
  To convincingly make arguments from a historical data description, you must back it up using triangulation–approaching the problem from many angles. That triangulation may be computational, archival, archaeological, or however else you’re used to historying, but we’ll focus here on computational.
-
- Todo:
- network navigator
- bipartite network
-
- Todo:
- community detection
-
-d3 network colorized
-
- matrices
- ner vs. set list
- count co-occurences
- look at communities detected
-bokeh vs d3
-how do we critique networks as historians?
-how do we understand visualizations as part of our argumentation?
-or statistics and measurements for that matter?
-micki kaufman project
-https://media.giphy.com/media/hVKz6wRT0POuI/giphy.gif
-spoon gif
 ---
-### first code review:
-- what sorts of research questions work well with networks? 
-- how can networks further historical arguments?
-- what sorts of critiques can we make of networks?
-- what might we do next with these data sets to actually make historical arguments?
- 
-> "Without having a ground against which to contextualize our results, a base map like general population, the fact of which cities voted in which direction gives us little historical meat to chew on. **The above boils down into two possible points of further research: deviations from expectation, or deviations from internal consistency.**"
-> [Argument Clinic, Scott Weingart](http://scottbot.net/argument-clinic/)
-deviations from expectation, or deviations from internal consistency.
+![You are the spoon](https://media.giphy.com/media/hVKz6wRT0POuI/giphy.gif)
+### Thanks!
