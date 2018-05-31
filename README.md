@@ -6,7 +6,7 @@
 
 Follow slides here [https://gitpitch.com/ZoeLeBlanc/Networks_and_Digital_History/master](https://gitpitch.com/ZoeLeBlanc/Networks_and_Digital_History/master)
 and check out the exercises!
-
+[SURVEY](https://docs.google.com/spreadsheets/d/1nLrreGzsp0fHWl2oGJozWeXM0_swQfhk24N5gqxXMTc/edit#gid=1513558791)
 ### Instructions
 1. First sign up for github account.
 - Instructions can be found here [https://help.github.com/articles/signing-up-for-a-new-github-account/](https://help.github.com/articles/signing-up-for-a-new-github-account/)
