@@ -42,6 +42,7 @@ Note:so this is a bit of word vomit let's put it into practice to see what it me
 @title[Palladio]
 [Palladio App from Stanford](http://hdlab.stanford.edu/palladio-app/#/upload)
 - Let's spend a few minutes together making a graph
+- Get the data from our (survey)[https://docs.google.com/spreadsheets/d/1nLrreGzsp0fHWl2oGJozWeXM0_swQfhk24N5gqxXMTc/edit?usp=sharing]
 
 Note: let's open up palladio > tool developed by stanford > load in data  > make a graph > is this a network? yes > is this meaningful though? probably not > what's missing? hypothesis SPEND 5-8 minutes
 ---
